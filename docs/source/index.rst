@@ -1,13 +1,23 @@
-Welcome to Lumache's documentation!
+Welcome to Lootopia's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Lootopia est une plateforme innovante de chasses au trésor numériques, mêlant interactions en
+ligne, géolocalisation et réalité augmentée.
+Le client fictif, Out of Cache, est une agence digitale spécialisée dans les solutions ludiques pour
+l’événementiel, le tourisme et l’éducation.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+cette projet a objectif de:
+- Mettre les étudiants en situation d’expertise technique et méthodologique sur un projet
+complet de leur domaine (Dev, DevOps, Cybersécurité, Chef de Projet, Big Data/IA).
+
+- Favoriser la mobilisation transversale des compétences acquises en formation : analyse,
+conception, développement, déploiement, documentation, communication.
+
+- Développer une posture professionnelle : prise d’initiative, travail en équipe, gestion de la
+relation “client”, production de livrables à forte valeur ajoutée.
+
+- Ancrer les apprentissages dans une démarche d’amélioration continue : remise en question,
+qualité, performance, réutilisabilité, documentation.
 
 .. note::
 
@@ -18,5 +28,5 @@ Contents
 
 .. toctree::
 
-   usage
-   api
+   Overview
+   Development
