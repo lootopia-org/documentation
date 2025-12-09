@@ -25,17 +25,29 @@ il faut offrire une experiance fluide et intuitive aux utiltisateurs, peu import
 les partenaires doit etre capable de cree et gereer leurs proprs chasse, les jouers doit etre attire de jouer en utilsant la system
 de gamefication(scores, progresion, reward), et au finale etre capable d'interagire ave le mode reel envers leurstelephone en utilsant la RA
 
-+------------+--------------------------+--------------------------------------+
-| Pôle       | Besoins spécifiques      | Exemples de solutions                |
-+============+==========================+======================================+
-| Utilisateurs | Créer compte, se connecter, rejoindre chasse | Auth JWT, formulaires simples        |
-+------------+--------------------------+--------------------------------------+
-| Partenaires | Créer chasses, gérer étapes et indices       | Backoffice minimal, CRUD             |
-+------------+--------------------------+--------------------------------------+
-| Technique  | API fiable, gestion DB, carto/RA             | Node.js + PostgreSQL, Google Maps API, AR.js |
-+------------+--------------------------+--------------------------------------+
-| Direction  | Produit démontrable et attractif             | MVP, vidéo démo                      |
-+------------+--------------------------+--------------------------------------+
+.. list-table::
+   :widths: 25 35 40
+   :header-rows: 1
+
+   * - Pôle
+     - Besoins spécifiques
+     - Exemples de solutions
+
+   * - Utilisateurs
+     - Créer compte, se connecter, rejoindre chasse
+     - Auth JWT, formulaires simples
+
+   * - Partenaires
+     - Créer chasses, gérer étapes et indices
+     - Backoffice minimal, CRUD
+
+   * - Technique
+     - API fiable, gestion DB, carto/RA
+     - Node.js + PostgreSQL, Google Maps API, AR.js
+
+   * - Direction
+     - Produit démontrable et attractif
+     - MVP, vidéo démo
 
 Fonctionnalités attendues
 -------------------------

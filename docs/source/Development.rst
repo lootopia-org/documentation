@@ -123,27 +123,45 @@ Commit message guidelines:
 - Detailed description of what and why
 - Reference issue numbers if applicable
 
-=================  ================================  =========================================
-Commit Type        Description                        When to Use
-=================  ================================  =========================================
-feat               A new feature for the user        When adding a new feature or functionality
-                   or system.                        
------------------  -------------------------------  -----------------------------------------
-fix                A bug fix.                         When correcting a defect in the code
------------------  -------------------------------  -----------------------------------------
-chore              Routine tasks or maintenance       When updating build scripts, dependencies,
-                   without affecting functionality.   refactoring, or general housekeeping
------------------  -------------------------------  -----------------------------------------
-docs               Documentation only changes.        When updating README, comments, or docs
------------------  -------------------------------  -----------------------------------------
-style              Code style or formatting changes.  When fixing whitespace, indentation, or formatting
------------------  -------------------------------  -----------------------------------------
-refactor           Code refactoring.                 When restructuring code without adding features
------------------  -------------------------------  -----------------------------------------
-test               Adding or updating tests.         When adding new tests or modifying existing ones
------------------  -------------------------------  -----------------------------------------
-perf               Performance improvements.         When improving performance without adding features
-=================  ================================  =========================================
+.. list-table::
+   :widths: 15 35 50
+   :header-rows: 1
+
+   * - Commit Type
+     - Description
+     - When to Use
+
+   * - feat
+     - A new feature for the user or system.
+     - When adding a new feature or functionality
+
+   * - fix
+     - A bug fix.
+     - When correcting a defect in the code
+
+   * - chore
+     - Routine tasks or maintenance without affecting functionality.
+     - When updating build scripts, dependencies, refactoring, or general housekeeping
+
+   * - docs
+     - Documentation only changes.
+     - When updating README, comments, or docs
+
+   * - style
+     - Code style or formatting changes.
+     - When fixing whitespace, indentation, or formatting
+
+   * - refactor
+     - Code refactoring.
+     - When restructuring code without adding features
+
+   * - test
+     - Adding or updating tests.
+     - When adding new tests or modifying existing ones
+
+   * - perf
+     - Performance improvements.
+     - When improving performance without adding features
 
 
 Step 3: Feature Branch to Dev

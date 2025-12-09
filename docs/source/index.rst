@@ -7,17 +7,18 @@ Le client fictif, Out of Cache, est une agence digitale spécialisée dans les s
 l’événementiel, le tourisme et l’éducation.
 
 cette projet a objectif de:
+
 - Mettre les étudiants en situation d’expertise technique et méthodologique sur un projet
-complet de leur domaine (Dev, DevOps, Cybersécurité, Chef de Projet, Big Data/IA).
+  complet de leur domaine (Dev, DevOps, Cybersécurité, Chef de Projet, Big Data/IA).
 
 - Favoriser la mobilisation transversale des compétences acquises en formation : analyse,
-conception, développement, déploiement, documentation, communication.
+  conception, développement, déploiement, documentation, communication.
 
 - Développer une posture professionnelle : prise d’initiative, travail en équipe, gestion de la
-relation “client”, production de livrables à forte valeur ajoutée.
+  relation “client”, production de livrables à forte valeur ajoutée.
 
 - Ancrer les apprentissages dans une démarche d’amélioration continue : remise en question,
-qualité, performance, réutilisabilité, documentation.
+  qualité, performance, réutilisabilité, documentation.
 
 .. note::
 
