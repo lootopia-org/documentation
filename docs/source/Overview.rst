@@ -16,8 +16,8 @@ ceci sont les problems que cette application devrai resoudre, cette application 
 
 - Intégration de la réalité augmentée marginale et complexe.
   - on va utilser les lib RA pour mettre en place du RA je pense surtout a utilse:
-    -Test hyperlink: `A-Frame <https://aframe.io/>`_.
-    -Test hyperlink: `AR.js <https://ar-js-org.github.io/AR.js-Docs/>`_.
+    - `A-Frame <https://aframe.io/>`_.
+    - `AR.js <https://ar-js-org.github.io/AR.js-Docs/>`_.
 
 Objectif du project
 -------------------
@@ -46,10 +46,12 @@ Fonctionnalités attendues
 5. Gamification basique : progression et points
 6. Interface intuitive et responsive
 
-- Cartographie et RA mises en avant
-- Interface mobile first
-- Code modulaire pour extensions futures
-- Accessibilité et ** *UX respectées* **
+Innovations possible:
+---------------------
+1. Cartographie et RA mises en avant
+2. Interface mobile first
+3. Code modulaire pour extensions futures
+4. Accessibilité et ** *UX respectées* **
 
 Livrables
 ---------
@@ -59,11 +61,17 @@ Livrables
 
 Kick Off
 ^^^^^^^^
-Calendrier : Début d’année
+Calendrier
+~~~~~~~~~
+Début d’année
 
-Objectif : Présentation de l’objectif du projet et du sujet et constitution des groupes
+Objectif
+~~~~~~~~
+Présentation de l’objectif du projet et du sujet et constitution des groupes
 
-Conseils : Visez la complémentarité des expertises dans vos groupes.
+Conseils
+~~~~~~~~
+Visez la complémentarité des expertises dans vos groupes.
 
 Video & MVP
 ^^^^^^^^^^^
@@ -87,31 +95,38 @@ Modalités
 
 Livrables attendus
 ~~~~~~~~~~~~~~~~~~
-** Vidéo .MP4 ou lien vers vidéo youtube en mode non publié. **
+Vidéo .MP4 ou lien vers vidéo youtube en mode non publié.
 
 Forme du livrable
 ~~~~~~~~~~~~~~~~~
-Solution 1 : Un fichier Zip contenant la vidéo du groupe.  
+Solution 1 : Un fichier Zip contenant la vidéo du groupe.
+
 - Nomenclature du zip :
   PE_2526_codepromo(ex : M1DEVA)_nometudiant1_nometudiant2_nom(etc…).zip
+
 - Nomenclature de la vidéo :
   PE-2526_codepromo_NomPrenomEtudiant.mp4
 
 **OU**
 
-- Solution 2 : Un document TXT contenant le lien vers la vidéo du groupe.
-  - A héberger sur youtube en mode Non Répertoriée. Toute autre plateforme ne sera pas
+Solution 2 : Un document TXT contenant le lien vers la vidéo du groupe.
+  
+- A héberger sur youtube en mode Non Répertoriée. Toute autre plateforme ne sera pas
     validée.
-  - Nomenclature du document :
-    PE_2526_codepromo(ex : M1DEVA)_nometudiant1_nometudiant2_nom(etc…).txt
 
-Plan :
+- Nomenclature du document :
+  PE_2526_codepromo(ex : M1DEVA)_nometudiant1_nometudiant2_nom(etc…).txt
+
+
+Plan
+~~~~
+
 - Présentation de l'entreprise et de l'équipe projet
 - Analyse de la problématique et introduction à la solution proposée
 - Organisation et méthodologies appliquées
 - Présentation de la solution technique
 
-**Conseils**: répétez, soignez le son et les visuels, valorisez la pertinence de vos choix techniques.
+Conseils: répétez, soignez le son et les visuels, valorisez la pertinence de vos choix techniques.
 
 
 Document technique finale
@@ -142,11 +157,13 @@ Exemples de livrables attendus en fonction du projet :
 
 Forme du livrable
 ~~~~~~~~~~~~~~~~~
-- Un fichier Zip contenant un rendu groupe (pdf) et un rendu par membre du groupe (voir plan).
+Un fichier Zip contenant un rendu groupe (pdf) et un rendu par membre du groupe (voir plan).
 - Nomenclature du zip :
   PE_2526_codepromo(ex : M1DEVA)_nometudiant1_nometudiant2_nom(etc…).zip
+
 - Nomenclature du document groupe :
   PE-2526_codepromo_ nometudiant1_nometudiant2_nom(etc…).pdf
+
 - Nomenclature des documents apprenants :
   PE-2526_codepromo_NomPrenomEtudiant.pdf
 
@@ -167,4 +184,4 @@ Rendu individuel
   proposée
 - Analyse critique sur les limites techniques rencontrées
 
-**Conseils** : vérifiez la cohérence de la documentation, relisez-vous, préparez un bilan objectif.
+Conseils : vérifiez la cohérence de la documentation, relisez-vous, préparez un bilan objectif.

@@ -1,5 +1,5 @@
 Development
-===========
+===
 
 Overview
 --------
@@ -13,18 +13,18 @@ One Repository Per Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 Each microservice, application, or independent component must have its own dedicated repository. This approach provides:
 
-Clear ownership: Each service has distinct maintainers and responsibilities
-Independent versioning: Services can be versioned and released independently
-Reduced complexity: Smaller codebases are easier to understand and maintain
-Isolated CI/CD: Each service has its own build and deployment pipeline
+- Clear ownership: Each service has distinct maintainers and responsibilities
+- Independent versioning: Services can be versioned and released independently
+- Reduced complexity: Smaller codebases are easier to understand and maintain
+- Isolated CI/CD: Each service has its own build and deployment pipeline
 
 Examples of what constitutes a separate service:
 
-User authentication service
-Payment processing API
-Frontend web application
-Mobile backend API
-Data processing worker
+- User authentication service
+- Payment processing API
+- Frontend web application
+- Mobile backend API
+- Data processing worker
 
 Branches
 --------
@@ -76,8 +76,8 @@ Always create a feature branch from the latest ``dev`` branch:
    ex: git checkout -b feature/PE-123_add-user-authentication
 
 Branch naming best practices:
-
-- Use prefixes: ``feature/``, ``bugfix/``, ``hotfix/``, ``chore/``
+ 
+- Use prefixes: ``feature/``, ``bugfix/``, ``hotfix/``
 - Include ticket/issue numbers
 - Be descriptive: ``feature/oauth-integration`` not ``feature/update``
 - Use lowercase with hyphens
@@ -146,8 +146,8 @@ perf               Performance improvements.         When improving performance 
 =================  ================================  =========================================
 
 
-Step 3: Feature Branch to Dev (First PR)
------------------------------------------
+Step 3: Feature Branch to Dev
+-----------------------------
 
 Once your feature is complete and tested locally:
 
@@ -156,7 +156,7 @@ Once your feature is complete and tested locally:
    # Ensure your branch is up to date with dev
    git checkout dev
    git pull origin dev
-   git checkout feature/add-user-authentication
+   git checkout feature/PE-123_add-user-authentication
    git merge dev
 
    # Resolve any conflicts if they exist
@@ -172,6 +172,7 @@ Create Pull Request to dev and request a reviewer
 3. Set base branch to dev
 4. Set compare branch to your feature branch
 5. Fill in the PR template:
+
 .. code-block:: md
   # Description
     Brief description of what this PR does
