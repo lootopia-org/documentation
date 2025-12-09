@@ -31,3 +31,4 @@ Contents
 
    Overview
    Development
+   Architecture
