@@ -82,46 +82,6 @@ Branch naming best practices:
 - Be descriptive: ``feature/oauth-integration`` not ``feature/update``
 - Use lowercase with hyphens
 
-Step 2: Developing Your Feature
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Make your changes and commit regularly:
-
-.. code-block:: bash
-
-   # Make your changes
-   # Edit files, write code, add tests
-
-   # Check what changed
-   git status
-   git diff
-
-   # Stage your changes
-   git add src/auth/login.js
-   git add tests/auth/login.test.js
-
-   # Or stage all changes
-   git add .
-
-   # Commit with a descriptive message
-   git commit -m "chore: add OAuth 2.0 authentication flow
-
-   - Implement OAuth provider integration
-   - Add token validation middleware
-   - Include unit tests for auth flow
-   - Update API documentation"
-
-   # Push to remote regularly
-   git push origin feature/PE-123_add-user-authentication
-
-Commit message guidelines:
-
-- First word: must be a label
-- the word after the label must be a word
-- First line: Brief summary (50 chars or less)
-- Blank line
-- Detailed description of what and why
-- Reference issue numbers if applicable
 
 .. list-table::
    :widths: 15 35 50
@@ -163,9 +123,48 @@ Commit message guidelines:
      - Performance improvements.
      - When improving performance without adding features
 
+Step 2: Developing Your Feature
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Make your changes and commit regularly:
+
+.. code-block:: bash
+
+   # Make your changes
+   # Edit files, write code, add tests
+
+   # Check what changed
+   git status
+   git diff
+
+   # Stage your changes
+   git add src/auth/login.js
+   git add tests/auth/login.test.js
+
+   # Or stage all changes
+   git add .
+
+   # Commit with a descriptive message
+   git commit -m "add OAuth 2.0 authentication flow
+
+   - Implement OAuth provider integration
+   - Add token validation middleware
+   - Include unit tests for auth flow
+   - Update API documentation"
+
+   # Push to remote regularly
+   git push origin feature/PE-123_add-user-authentication
+
+Commit message guidelines:
+
+- First word: must be a verb
+- First line: Brief summary (50 chars or less)
+- Blank line
+- Detailed description of what and why
+- Reference issue numbers if applicable
 
 Step 3: Feature Branch to Dev
------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Once your feature is complete and tested locally:
 
