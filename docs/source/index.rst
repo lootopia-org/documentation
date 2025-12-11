@@ -32,3 +32,4 @@ Contents
    Overview
    Development
    Architecture
+   Core
