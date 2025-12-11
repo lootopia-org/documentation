@@ -7,7 +7,7 @@ this page details what you need to know about the core module. this modules is u
 - Kafka consummers and producers
 
 Pre-requisites
-==============
+--------------
 the technologies required to run this module are:
 
 - vcpkg
@@ -15,7 +15,7 @@ the technologies required to run this module are:
 
 
 How to build
-============
+------------
 
 .. code-block:: bash
    cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
@@ -25,4 +25,13 @@ How to build
    # Release Build
    cmake --build build --config Release
 
+Dependencies used in this module
+--------------------------------
+
+- librdkafka
+- curl
+- libwebsckets
+- protobuf
+- grpc
+- libmicrohttpd
 
